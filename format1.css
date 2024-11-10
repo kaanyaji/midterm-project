@@ -1,0 +1,99 @@
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family:'Courier New', Courier, monospace;
+            
+        }
+        body{
+            overflow:auto;
+        }
+        .container {
+            height: 200vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .divname{position: absolute;
+        align-items: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -350%);
+        background-color: #3b3021;
+        width: 250px;
+        text-align: center;
+        font-size: 18px;
+        color: white;
+        
+        }
+
+        .proj{position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #afafaf;
+            width: 110px;
+            text-align: center;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            }
+
+        .top, .bottom {
+            flex: 1;
+            background-attachment: fixed;
+            
+        }
+        .top {
+            background-image: url('bg30.png');
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            
+        }
+        .bottom {
+            background-image: url('bg26.png');
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            position: relative;
+            
+        }
+
+        .text { 
+            font-size: 20px;
+            background-color: #18140e;
+            justify-content: center;
+            align-items: center;
+            top: 50%;
+            left: 50%;
+            text-align: center;
+            padding: 50px;
+            color: white;
+        }
+        .floating-tab{ 
+            font-size: 18px;
+            background-color: #18140e;
+            font-family:'Courier New', Courier, monospace ;
+            padding: 20px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: gray;
+            padding: 15px;
+        }
+        .want {color: red;}
+        .awant{text-decoration: none;}
+
+        a:link{color: blue;}
+        a:visited{color: gray;}
+        a:hover{color: red;}
+        a:active{color: green;}
+
+          
+            
+        

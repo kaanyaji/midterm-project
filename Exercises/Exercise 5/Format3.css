@@ -1,0 +1,17 @@
+.b1 {
+	color: blue;
+}
+.b2{
+	color: green;
+}
+
+.tr1{background-color: red;
+	color: white;}
+	
+table {border-color: red;
+margin: auto;}
+
+.td1, .td2, .td3 {color: red;}
+
+p {text-align:center;
+color: #B16274;}

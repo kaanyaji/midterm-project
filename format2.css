@@ -1,0 +1,72 @@
+html, body { height: 100%; margin: 0;
+    background-color: #18140e;
+    background-position: top; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+    justify-content: center; 
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    }
+
+
+.square{background-color: whitesmoke;
+    padding: 30px;
+    width: 56%;
+    margin: 20px, 0;
+    box-sizing: border-box;
+    transform: translate(40%, 0);
+    margin-bottom: 100px;
+}
+
+.name, .email, .age{
+    width: 95%;
+    padding: 10px;
+    margin-top: 0px;
+    
+}
+.a, .b, .c {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.programs{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.codea, .codeb, .codec, .coded, .codee, .codef{
+    margin-bottom: 15px;
+}
+
+.comments{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.box{
+    width: 95%;
+    padding: 10px;
+    height: 30px;
+}
+
+.sub{
+    width: 98%;
+    margin-top: 40px;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+}
+
+
+.let{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 60px;
+
+}
